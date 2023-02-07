@@ -90,7 +90,7 @@ li a {
 margin-left:100px;
 padding:0;}
 
-.nav li {
+.nav > li{
   display:inline-block;
   font-size:20px;
   padding:20px;
@@ -104,4 +104,8 @@ border-bottom-left-radius: 25px;
 .nav li:hover {
 background-color:#141414;
 border-radius:20px;
+}
+
+#hidethis {
+  display:none;
 }
